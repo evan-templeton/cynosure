@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8fS-bC-MVl">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--cynosure-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Cynosure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cynosure Official Logo Icon" translatesAutoresizingMaskIntoConstraints="NO" id="3Yq-XC-1Gd">
+                                <rect key="frame" x="62.666666666666657" y="220" width="249.99999999999997" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="ZC2-dz-ITT"/>
+                                    <constraint firstAttribute="height" constant="250" id="hcI-is-Dz8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="3Yq-XC-1Gd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D7c-sC-t5U"/>
+                            <constraint firstItem="3Yq-XC-1Gd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="h0h-96-1t8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="cynosure" id="ShE-kt-ZfS"/>
+                    <connections>
+                        <outlet property="logoImageView" destination="3Yq-XC-1Gd" id="k6S-eK-b1i"/>
+                        <segue destination="8fS-bC-MVl" kind="show" identifier="loginSegue" id="Ylc-4o-w7D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="102.45535714285714"/>
+        </scene>
+        <!--cynosure-->
+        <scene sceneID="RbT-HU-lwA">
+            <objects>
+                <viewController id="OQA-vS-IEp" customClass="HomeFeedViewController" customModule="Cynosure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4fm-45-dG5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zX7-ld-kgV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zX7-ld-kgV" firstAttribute="top" secondItem="4fm-45-dG5" secondAttribute="top" id="7bo-v2-g5T"/>
+                            <constraint firstAttribute="trailing" secondItem="zX7-ld-kgV" secondAttribute="trailing" id="Dux-wa-xC7"/>
+                            <constraint firstItem="zX7-ld-kgV" firstAttribute="leading" secondItem="4fm-45-dG5" secondAttribute="leading" id="cWl-Kh-bis"/>
+                            <constraint firstAttribute="bottom" secondItem="zX7-ld-kgV" secondAttribute="bottom" id="tvx-J4-I55"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wPk-jg-JW5"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="" selectedImage="house.fill" catalog="system" id="iV1-FY-PeE"/>
+                    <navigationItem key="navigationItem" title="cynosure" id="jXQ-Zq-GRC"/>
+                    <connections>
+                        <outlet property="homeTableView" destination="zX7-ld-kgV" id="33H-dN-K8m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="36S-9T-pwb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2703.1999999999998" y="99.753694581280797"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZuR-1a-9cD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e35-xq-bNS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="Dpm-N5-Hot">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="DELVONDEMO" family="DELVON DEMO" pointSize="60"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3IV-Ej-cZ7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="60r-zf-6uZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="102.45535714285714"/>
+        </scene>
+        <!--cynosure-->
+        <scene sceneID="bFF-Gf-XTs">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="8fS-bC-MVl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="cynosure" id="8f7-Cg-FDB"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="b9D-ca-FkW">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="OQA-vS-IEp" kind="relationship" relationship="viewControllers" id="xoc-XK-kd9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7M3-yj-Zm3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1760.8" y="99.753694581280797"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cynosure Official Logo Icon" width="1024" height="863"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+    </resources>
+</document>

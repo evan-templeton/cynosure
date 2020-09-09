@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B6FCF3E24F209AB0026C9E4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FCF3D24F209AB0026C9E4 /* User.swift */; };
+		6B8C825C24F0218C00436062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C825B24F0218C00436062 /* AppDelegate.swift */; };
+		6B8C825E24F0218C00436062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C825D24F0218C00436062 /* SceneDelegate.swift */; };
+		6B8C826024F0218C00436062 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C825F24F0218C00436062 /* LoginViewController.swift */; };
+		6B8C826324F0218C00436062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C826124F0218C00436062 /* Main.storyboard */; };
+		6B8C826524F0218D00436062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C826424F0218D00436062 /* Assets.xcassets */; };
+		6B8C826824F0218D00436062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C826624F0218D00436062 /* LaunchScreen.storyboard */; };
+		6B8C827024F0305C00436062 /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C826F24F0305C00436062 /* HomeFeedViewController.swift */; };
+		6BA5898F25098066002F70B6 /* SDWebImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5898E25098066002F70B6 /* SDWebImageHelper.swift */; };
+		6BCAA4F324F2B74E00CE231F /* DELVON DEMO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BCAA4F224F2B74E00CE231F /* DELVON DEMO.ttf */; };
+		6BCE07D625095FF3004DB628 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE07D425095FF3004DB628 /* PostCell.swift */; };
+		6BCE07D725095FF3004DB628 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BCE07D525095FF3004DB628 /* PostCell.xib */; };
+		6BCE07D925096FCE004DB628 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE07D825096FCE004DB628 /* Post.swift */; };
+		948E391B979B1D97BB0C1291 /* Pods_Cynosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633CC0079A1F8B00F0B7E21E /* Pods_Cynosure.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		633CC0079A1F8B00F0B7E21E /* Pods_Cynosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cynosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A304D870B1149CC8A993800 /* Pods-Cynosure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cynosure.release.xcconfig"; path = "Target Support Files/Pods-Cynosure/Pods-Cynosure.release.xcconfig"; sourceTree = "<group>"; };
+		6B6FCF3C24F1FAB00026C9E4 /* Cynosure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cynosure.entitlements; sourceTree = "<group>"; };
+		6B6FCF3D24F209AB0026C9E4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6B8C825824F0218C00436062 /* Cynosure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cynosure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8C825B24F0218C00436062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B8C825D24F0218C00436062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B8C825F24F0218C00436062 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6B8C826224F0218C00436062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B8C826424F0218D00436062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8C826724F0218D00436062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B8C826924F0218D00436062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8C826F24F0305C00436062 /* HomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
+		6BA5898E25098066002F70B6 /* SDWebImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageHelper.swift; sourceTree = "<group>"; };
+		6BCAA4F224F2B74E00CE231F /* DELVON DEMO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DELVON DEMO.ttf"; sourceTree = "<group>"; };
+		6BCE07D425095FF3004DB628 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = Cynosure/Views/PostCell.swift; sourceTree = SOURCE_ROOT; };
+		6BCE07D525095FF3004DB628 /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PostCell.xib; path = Cynosure/Views/PostCell.xib; sourceTree = SOURCE_ROOT; };
+		6BCE07D825096FCE004DB628 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A40EB6B32D6F5D72DAC9BB8D /* Pods-Cynosure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cynosure.debug.xcconfig"; path = "Target Support Files/Pods-Cynosure/Pods-Cynosure.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8C825524F0218C00436062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948E391B979B1D97BB0C1291 /* Pods_Cynosure.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8C824F24F0218C00436062 = {
+			isa = PBXGroup;
+			children = (
+				6B8C825A24F0218C00436062 /* Cynosure */,
+				6B8C825924F0218C00436062 /* Products */,
+				E73261E8F89FE9F62FCB6ABC /* Pods */,
+				E62245485F04D5C19ED4217E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8C825924F0218C00436062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C825824F0218C00436062 /* Cynosure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8C825A24F0218C00436062 /* Cynosure */ = {
+			isa = PBXGroup;
+			children = (
+				6BCAA4F224F2B74E00CE231F /* DELVON DEMO.ttf */,
+				6B6FCF3C24F1FAB00026C9E4 /* Cynosure.entitlements */,
+				6B8C825B24F0218C00436062 /* AppDelegate.swift */,
+				6B8C825D24F0218C00436062 /* SceneDelegate.swift */,
+				6BCAA4F124F2B70400CE231F /* Models */,
+				6BCAA4EF24F2B6E300CE231F /* Views */,
+				6BCAA4F024F2B6F600CE231F /* Controllers */,
+				6B8C826424F0218D00436062 /* Assets.xcassets */,
+				6B8C826624F0218D00436062 /* LaunchScreen.storyboard */,
+				6B8C826924F0218D00436062 /* Info.plist */,
+			);
+			path = Cynosure;
+			sourceTree = "<group>";
+		};
+		6BCAA4EF24F2B6E300CE231F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE07D425095FF3004DB628 /* PostCell.swift */,
+				6BCE07D525095FF3004DB628 /* PostCell.xib */,
+				6B8C826124F0218C00436062 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6BCAA4F024F2B6F600CE231F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C825F24F0218C00436062 /* LoginViewController.swift */,
+				6B8C826F24F0305C00436062 /* HomeFeedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6BCAA4F124F2B70400CE231F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B6FCF3D24F209AB0026C9E4 /* User.swift */,
+				6BCE07D825096FCE004DB628 /* Post.swift */,
+				6BA5898E25098066002F70B6 /* SDWebImageHelper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E62245485F04D5C19ED4217E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				633CC0079A1F8B00F0B7E21E /* Pods_Cynosure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E73261E8F89FE9F62FCB6ABC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A40EB6B32D6F5D72DAC9BB8D /* Pods-Cynosure.debug.xcconfig */,
+				6A304D870B1149CC8A993800 /* Pods-Cynosure.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8C825724F0218C00436062 /* Cynosure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8C826C24F0218D00436062 /* Build configuration list for PBXNativeTarget "Cynosure" */;
+			buildPhases = (
+				F0FC908A12B09283B5061BEA /* [CP] Check Pods Manifest.lock */,
+				6B8C825424F0218C00436062 /* Sources */,
+				6B8C825524F0218C00436062 /* Frameworks */,
+				6B8C825624F0218C00436062 /* Resources */,
+				6B0FADC3A94AA894896E28C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cynosure;
+			productName = Cynosure;
+			productReference = 6B8C825824F0218C00436062 /* Cynosure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8C825024F0218C00436062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Evan Templeton";
+				TargetAttributes = {
+					6B8C825724F0218C00436062 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 6B8C825324F0218C00436062 /* Build configuration list for PBXProject "Cynosure" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B8C824F24F0218C00436062;
+			productRefGroup = 6B8C825924F0218C00436062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8C825724F0218C00436062 /* Cynosure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8C825624F0218C00436062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCE07D725095FF3004DB628 /* PostCell.xib in Resources */,
+				6BCAA4F324F2B74E00CE231F /* DELVON DEMO.ttf in Resources */,
+				6B8C826824F0218D00436062 /* LaunchScreen.storyboard in Resources */,
+				6B8C826524F0218D00436062 /* Assets.xcassets in Resources */,
+				6B8C826324F0218C00436062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B0FADC3A94AA894896E28C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cynosure/Pods-Cynosure-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cynosure/Pods-Cynosure-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cynosure/Pods-Cynosure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0FC908A12B09283B5061BEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cynosure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8C825424F0218C00436062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C826024F0218C00436062 /* LoginViewController.swift in Sources */,
+				6BA5898F25098066002F70B6 /* SDWebImageHelper.swift in Sources */,
+				6B8C825C24F0218C00436062 /* AppDelegate.swift in Sources */,
+				6B8C825E24F0218C00436062 /* SceneDelegate.swift in Sources */,
+				6B6FCF3E24F209AB0026C9E4 /* User.swift in Sources */,
+				6B8C827024F0305C00436062 /* HomeFeedViewController.swift in Sources */,
+				6BCE07D925096FCE004DB628 /* Post.swift in Sources */,
+				6BCE07D625095FF3004DB628 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B8C826124F0218C00436062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8C826224F0218C00436062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B8C826624F0218D00436062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8C826724F0218D00436062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8C826A24F0218D00436062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B8C826B24F0218D00436062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8C826D24F0218D00436062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40EB6B32D6F5D72DAC9BB8D /* Pods-Cynosure.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cynosure/Cynosure.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5ZY8JZUHT;
+				INFOPLIST_FILE = Cynosure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evantempleton.Cynosure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6B8C826E24F0218D00436062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A304D870B1149CC8A993800 /* Pods-Cynosure.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cynosure/Cynosure.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5ZY8JZUHT;
+				INFOPLIST_FILE = Cynosure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evantempleton.Cynosure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8C825324F0218C00436062 /* Build configuration list for PBXProject "Cynosure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8C826A24F0218D00436062 /* Debug */,
+				6B8C826B24F0218D00436062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8C826C24F0218D00436062 /* Build configuration list for PBXNativeTarget "Cynosure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8C826D24F0218D00436062 /* Debug */,
+				6B8C826E24F0218D00436062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8C825024F0218C00436062 /* Project object */;
+}
