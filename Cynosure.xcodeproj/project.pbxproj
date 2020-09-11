@@ -20,6 +20,8 @@
 		6BCE07D625095FF3004DB628 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE07D425095FF3004DB628 /* PostCell.swift */; };
 		6BCE07D725095FF3004DB628 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BCE07D525095FF3004DB628 /* PostCell.xib */; };
 		6BCE07D925096FCE004DB628 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE07D825096FCE004DB628 /* Post.swift */; };
+		6BD2B662250B043E0059B18D /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD2B661250B043E0059B18D /* ArtistViewController.swift */; };
+		6BD2B664250B04640059B18D /* FanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD2B663250B04640059B18D /* FanViewController.swift */; };
 		948E391B979B1D97BB0C1291 /* Pods_Cynosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633CC0079A1F8B00F0B7E21E /* Pods_Cynosure.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,8 @@
 		6BCE07D425095FF3004DB628 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = Cynosure/Views/PostCell.swift; sourceTree = SOURCE_ROOT; };
 		6BCE07D525095FF3004DB628 /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PostCell.xib; path = Cynosure/Views/PostCell.xib; sourceTree = SOURCE_ROOT; };
 		6BCE07D825096FCE004DB628 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6BD2B661250B043E0059B18D /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		6BD2B663250B04640059B18D /* FanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanViewController.swift; sourceTree = "<group>"; };
 		A40EB6B32D6F5D72DAC9BB8D /* Pods-Cynosure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cynosure.debug.xcconfig"; path = "Target Support Files/Pods-Cynosure/Pods-Cynosure.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +111,8 @@
 			children = (
 				6B8C825F24F0218C00436062 /* LoginViewController.swift */,
 				6B8C826F24F0305C00436062 /* HomeFeedViewController.swift */,
+				6BD2B661250B043E0059B18D /* ArtistViewController.swift */,
+				6BD2B663250B04640059B18D /* FanViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			files = (
 				6B8C826024F0218C00436062 /* LoginViewController.swift in Sources */,
 				6BA5898F25098066002F70B6 /* SDWebImageHelper.swift in Sources */,
+				6BD2B664250B04640059B18D /* FanViewController.swift in Sources */,
+				6BD2B662250B043E0059B18D /* ArtistViewController.swift in Sources */,
 				6B8C825C24F0218C00436062 /* AppDelegate.swift in Sources */,
 				6B8C825E24F0218C00436062 /* SceneDelegate.swift in Sources */,
 				6B6FCF3E24F209AB0026C9E4 /* User.swift in Sources */,

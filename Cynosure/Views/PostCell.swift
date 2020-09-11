@@ -28,5 +28,4 @@ class PostCell: UITableViewCell {
         postAuthorLabel.text = post.author
         postTextLabel.text = post.body
     }
-    
 }
