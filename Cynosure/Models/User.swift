@@ -1,10 +1,3 @@
-//
-//  User.swift
-//  Cynosure
-//
-//  Created by Lacy P. Smith  on 8/22/20.
-//  Copyright © 2020 Evan Templeton. All rights reserved.
-//
 
 import Foundation
 import AuthenticationServices

@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Cynosure
-//
-//  Created by Lacy P. Smith  on 8/21/20.
-//  Copyright © 2020 Evan Templeton. All rights reserved.
-//
 
 import UIKit
 

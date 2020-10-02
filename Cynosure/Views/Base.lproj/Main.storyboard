@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8fS-bC-MVl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e35-xq-bNS">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--cynosure-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Cynosure" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +31,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="cynosure" id="ShE-kt-ZfS"/>
+                    <navigationItem key="navigationItem" id="ShE-kt-ZfS"/>
                     <connections>
                         <outlet property="logoImageView" destination="3Yq-XC-1Gd" id="k6S-eK-b1i"/>
                         <segue destination="8fS-bC-MVl" kind="show" identifier="loginSegue" id="Ylc-4o-w7D"/>
@@ -259,7 +259,7 @@
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="DELVONDEMO" family="DELVON DEMO" pointSize="60"/>
+                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="60"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -271,12 +271,12 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="102.45535714285714"/>
         </scene>
-        <!--cynosure-->
+        <!--Tab Bar Controller-->
         <scene sceneID="bFF-Gf-XTs">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="8fS-bC-MVl" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="cynosure" id="8f7-Cg-FDB"/>
+                    <navigationItem key="navigationItem" id="8f7-Cg-FDB"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="b9D-ca-FkW">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
